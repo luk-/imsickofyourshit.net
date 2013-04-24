@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>I'm Sick Of Your Shit</title>
+  <style>
+    html {
+      background: #12229B
+    }
+
+    @font-face {
+      font-family: yeopardy;
+      src: url(scakorinnabold.ttf);
+    }
+
+    #shitty {
+      color: #fff;
+      font-family: yeopardy, serif;
+      font-size: 50px;
+      text-shadow: #000 4px 4px 2px;
+    }
+
+    body {
+      position: absolute;
+      top: 40%;
+      width: 99%;
+      text-align: center;
+      margin-top: -50px;
+    }
+  </style>
+</head>
+
+<body>
+
+<h1 id="shitty">I'm sick of your shit</h1>
+
+<script>
+(function () {
+  host = window.location.hostname.split('.')
+  if (host.length < 3) return
+  var guest = host[0]
+  // var guest = host[0].split('').shift().toUpperCase().concat(host[0].slice(1)) // lmao!!!!
+  pre = document.getElementById('shitty')
+  pre.innerText = guest.concat(', ', pre.innerText)
+})()
+</script>
+
+</body>
+
+</html>
