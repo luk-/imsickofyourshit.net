@@ -1,0 +1,12 @@
+{
+  "name": "imsickofyourshit.net",
+  "version": "0.0.1",
+  "description": "im sick of yo shit",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/st-luke/imsickofyourshit.net.git"
+  },
+  "author": "Luke Arduini <luke.arduini@gmail.com>",
+  "license": "MIT"
+}
